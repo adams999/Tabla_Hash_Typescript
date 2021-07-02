@@ -38,7 +38,6 @@ export class ListaEnlazada {
   }
 }
 
-//node
 class listJS {
   private val: any;
   private key: string;
@@ -57,7 +56,7 @@ class listJS {
   next(node: listJS) {
     this.nextNode = node;
   }
-  
+
   getKey(): string {
     return this.key;
   }
@@ -106,7 +105,7 @@ export class HashTabla {
   }
 
   print(): void {
-    console.log(this.table);
+    //console.log(this.table);
   }
 }
 
@@ -116,7 +115,7 @@ hash.insert("Nombre", 123132);
 console.log(hash.getKey("Nombre"));
 hash.insert("Apellido", 2123123);
 hash.insert("Apellidos", 2123123);
-hash.insert("Apellidoas", 2123123);
-hash.insert("Apelli", 2123122);
+hash.insert("Apellidas", 2123123);
+hash.insert("Ape", 2123122);
 console.log(hash.getKey("Apellido"));
 console.log(hash.print());
